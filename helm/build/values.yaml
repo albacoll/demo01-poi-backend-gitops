@@ -1,0 +1,18 @@
+app:
+  name: demo01-poi-backend
+  namespace: demo01
+  cluster: .apps.sandbox-m4.g2pi.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/albacoll/demo01-poi-backend.git
+  org: 
+  name: demo01-poi-backend
+  host: 
+  token: ''
+  webhookSecret: ''
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: demo01/poi-backend
+  tag: 001
